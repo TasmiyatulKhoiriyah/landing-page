@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Furniture Minimalis - Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('img/baground.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 50px 0 20px;
+            font-size: 32px;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 30%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .product-item h3 {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+
+        .product-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .product-item button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .product-item button:hover {
+            background-color: #e65a50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .product-item {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product-item {
+                width: 100%;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#hero">Beranda</a>
+            <a href="#products">Produk</a>
+            <a href="#footer">Kontak</a>
+        </nav>
+    </header>
+
+   <section class="hero">
+        <h1>Furniture Minimalis Terbaik untuk Rumah Anda</h1>
+        <p>Desain modern, minimalis, dan elegan untuk mempercantik ruangan Anda</p>
+    </section>
+
+    <section id="products">
+        <h2 class="section-title">Produk Unggulan</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="img/sofa.jpeg" alt="Sofa Minimalis">
+                <h3>Sofa Minimalis</h3>
+                <p>Meja Hias desain minimalis yang nyaman dan elegan, cocok untuk ruang tamu modern.</p>
+                
+            </div>
+            <div class="product-item">
+                <img src="img/meja.jpeg" alt="Meja Kopi Minimalis">
+                <h3>Meja Kopi Minimalis</h3>
+                <p>Sofa dengan desain minimalis yang nyaman dan elegan, cocok untuk ruang tamu modern.</p>
+                
+            </div>
+            <div class="product-item">
+                <img src="img/rak.jpeg" alt="Rak Dinding Minimalis">
+                <h3>Rak Dinding Minimalis</h3>
+                <p>Rak dinding modern yang fungsional dan menambah estetika ruangan dengan tampilan simpel.</p>
+                
+            </div>
+            <div class="product-item">
+                <img src="img/kasur.jpeg" alt="Kasur Minimalis">
+                <h3>Kasur Minimalis</h3>
+                <p>Kasur modern yang fungsional dan menambah estetika ruangan dengan tampilan simpel.</p>
+                
+            </div>
+            <div class="product-item">
+                <img src="img/makan.jpeg" alt="Meja Makan Minimalis">
+                <h3>Meja Makan Minimalis</h3>
+                <p>Meja makan modern yang fungsional dan menambah estetika ruangan dengan tampilan simpel.</p>
+                
+            </div>
+            <div class="product-item">
+                <img src="img/lemari.jpeg" alt=Lemari Minimalis">
+                <h3>Lemari Minimalis</h3>
+                <p>Lemari modern yang fungsional dan menambah estetika ruangan dengan tampilan simpel.</p>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+	<section id="footer">
+        <p>&copy; 2024 Tasmiyatul Khoiriyah.</p>
+	<p>contact us</p>
+	</section>
+    </footer>
+</body>
+</html>
